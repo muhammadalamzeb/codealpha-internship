@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a consistent background color */
+body {
+    background-color: #f0f8ff; /* Light Blue Background */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF; /* Sky Blue Header Background */
+    color: white;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style individual project sections */
+.project {
+    flex: 0 0 calc(33.33% - 20px); /* Three columns with spacing */
+    padding: 20px;
+    background-color: #fff; /* White Background */
+    border: 1px solid #ccc; /* Light Gray Border */
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project h2 {
+    margin-top: 10px;
+    color: #007BFF; /* Sky Blue Text Color */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF; /* Sky Blue Footer Background */
+    color: white;
+}
