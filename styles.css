@@ -9,7 +9,16 @@ body {
     background-color: #f0f8ff; /* Light Blue Background */
     font-family: Arial, sans-serif;
 }
-
+details{
+    margin-top: 6px;
+    color: #007BFF;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-decoration: underline;
+}
 /* Style the header */
 header {
     text-align: center;
